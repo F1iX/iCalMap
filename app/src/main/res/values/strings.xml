@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">iCalMap</string>
+    <string name="title_activity_maps">iCalMap</string>
+    <string name="add_file_dialog_title">Please select an .ics file to display</string>
+    <string name="add_file_dialog_text">Do you want to keep currently displayed events or clear the view?</string>
+    <string name="keep">Keep</string>
+    <string name="clear">Clear</string>
+</resources>

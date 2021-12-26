@@ -1,0 +1,330 @@
+BEGIN:VCALENDAR
+X-LOTUS-CHARSET:UTF-8
+VERSION:2.0
+PRODID:http://www.wissenschaftsnacht-dresden.de
+METHOD:PUBLISH
+X-LOTUS-CHARSET:UTF-8
+VERSION:2.0
+PRODID:http://www.bahn.de
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:3509@www.wissenschaftsnacht-dresden.de
+CLASS:PUBLIC
+ORGANIZER;CN="Hochschule für Technik und Wirtschaft Dresden":MAILTO:info@wissenschaftsnacht-dresden.de
+SUMMARY:Intelligente Bildverarbeitung\, Grafikmodellierung und Visualisierung
+DTSTART;TZID=Europe/Berlin:20190614T180000
+DTEND;TZID=Europe/Berlin:20190615T000000
+DTSTAMP:20190607T110749Z
+DESCRIPTION:Erkundungsreise durch mehrdimensionale reale und virtuelle Welten mit Kameras\, Computersystemen und Displays zur Erfassung\, Verarbeitung\, Interpretation und Präsentation raumzeitlicher visueller Strukturen.
+LOCATION:Friedrich-List-Platz 1 01069 Dresden
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:3514@www.wissenschaftsnacht-dresden.de
+CLASS:PUBLIC
+ORGANIZER;CN="Technische Universität Dresden":MAILTO:info@wissenschaftsnacht-dresden.de
+SUMMARY:Brand- und Katastrophenschutz an der TU Dresden / Betriebliche Feuerwehr
+DTSTART;TZID=Europe/Berlin:20190614T180000
+DTEND;TZID=Europe/Berlin:20190614T230000
+DTSTAMP:20190607T110749Z
+DESCRIPTION:Vorstellung von Technik und Ausrüstung der Betrieblichen Feuerwehr.                                  Zielspritzen für Kinder.
+LOCATION:Helmholtzstraße 9b 01069 Dresden
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:3516@www.wissenschaftsnacht-dresden.de
+CLASS:PUBLIC
+ORGANIZER;CN="Technische Universität Dresden":MAILTO:info@wissenschaftsnacht-dresden.de
+SUMMARY:Photogrammetrie und optische 3D-Messverfahren: 3D-Objektrekonstruktion und 3D-Bewegungsanalyse
+DTSTART;TZID=Europe/Berlin:20180615T180000
+DTEND;TZID=Europe/Berlin:20180616T010000
+DTSTAMP:20190607T110749Z
+DESCRIPTION:Wir präsentieren Ihnen verschiedene Geräte und Verfahren zur dreidimensionalen Modellierung via UAV\, 3D-Kamera\, Laserscanner\, u. a. sowie interessante aktuelle Forschungsprojekte aus dem Bereich der Photogrammetrie und Laserscanning.
+LOCATION:Bergstraße 64 01069 Dresden
+SEQUENCE:2
+END:VEVENT
+BEGIN:VEVENT
+UID:3544@www.wissenschaftsnacht-dresden.de
+CLASS:PUBLIC
+ORGANIZER;CN="Hochschule für Technik und Wirtschaft Dresden":MAILTO:info@wissenschaftsnacht-dresden.de
+SUMMARY:Nachhaltiger Asphaltstraßenbau - schon die alten Griechen kannten die Vorzüge der Schwarzen Kunst
+DTSTART;TZID=Europe/Berlin:20190614T180000
+DTEND;TZID=Europe/Berlin:20190614T230000
+DTSTAMP:20190607T110749Z
+DESCRIPTION:Asphaltstraßenbau anschaulich gemacht - Führung durch das Straßenbaulabor mit Demonstration verschiedener Laborversuche. Wir laden Sie ein\, durch kleine Experimente den Baustoff Asphalt hautnah zu erleben. Testen Sie Ihr Wissen in einem Quiz für Groß und Klein. Für die ganz Kleinen gibt es einen kleinen Geschicklichkeitsparcour im Innenhof.
+LOCATION:Schnorrstraße 56 01069 Dresden
+SEQUENCE:3
+END:VEVENT
+BEGIN:VEVENT
+UID:3550@www.wissenschaftsnacht-dresden.de
+CLASS:PUBLIC
+ORGANIZER;CN="Technische Universität Dresden":MAILTO:info@wissenschaftsnacht-dresden.de
+SUMMARY:Menschliche und autonome Autofahrer im Computer
+DTSTART;TZID=Europe/Berlin:20190614T203000
+DTEND;TZID=Europe/Berlin:20190614T210000
+DTSTAMP:20190607T110749Z
+DESCRIPTION:Wir modellieren verschiedene Fahrstile wie aggressiv\, ängstlich\, sportlich oder vorausschauend und zeigen\, welcher menschliche Fahrstil effizient bei der Stauvermeidung hilft. Autonome Fahrzeuge hingegen erfassen den Verkehr präziser\, werden nicht abgelenkt und haben minimale Reaktionszeiten. Überwiegen Vor- oder Nachteile gegenüber menschlichen Fahrern? Lassen Sie sich überraschen!
+LOCATION:Hettnerstraße 1 01069 Dresden
+SEQUENCE:4
+END:VEVENT
+BEGIN:VEVENT
+UID:3554@www.wissenschaftsnacht-dresden.de
+CLASS:PUBLIC
+ORGANIZER;CN="Technische Universität Dresden":MAILTO:info@wissenschaftsnacht-dresden.de
+SUMMARY:Kryptowährung
+DTSTART;TZID=Europe/Berlin:20190614T194500
+DTEND;TZID=Europe/Berlin:20190614T201500
+DTSTAMP:20190607T110749Z
+DESCRIPTION:Was ist eine Kryptowährung? Was bedeutet Block-Chain? Ist BitCoin dasselbe wie Block-Chain? Werden wir zukünftig kein echtes Geld mehr haben? Ist Kryptowährung nur etwas für Kriminelle? Lohnt es sich in Kryptowährung zu investieren?
+LOCATION:Hettnerstraße 1 01069 Dresden
+SEQUENCE:5
+END:VEVENT
+BEGIN:VEVENT
+UID:3574@www.wissenschaftsnacht-dresden.de
+CLASS:PUBLIC
+ORGANIZER;CN="Technische Universität Dresden":MAILTO:info@wissenschaftsnacht-dresden.de
+SUMMARY:Faszination Lasersensorik
+DTSTART;TZID=Europe/Berlin:20190614T190000
+DTEND;TZID=Europe/Berlin:20190614T220000
+DTSTAMP:20190607T110749Z
+DESCRIPTION:Der Laser hat bereits in vielen Anwendungen des Alltags Einzug gehalten: CD-Spieler\, Supermarktscanner und Laserzollstock sind die bekanntesten Beispiele. Auch Ultraschallsensoren sind inzwischen weit verbreitet\, z.B. in Autos zur Parkdistanzkontrolle. Es wird erläutert\, wie man mit Laserlicht und Ultraschallwellen messen kann und dies durch ausgewählte Experimente veranschaulicht.
+LOCATION:Helmholtzstraße 18 01069 Dresden
+SEQUENCE:6
+END:VEVENT
+BEGIN:VEVENT
+UID:3598@www.wissenschaftsnacht-dresden.de
+CLASS:PUBLIC
+ORGANIZER;CN="Technische Universität Dresden":MAILTO:info@wissenschaftsnacht-dresden.de
+SUMMARY:Gefährliche Luft? - Dem Feinstaub auf der Spur
+DTSTART;TZID=Europe/Berlin:20190614T180000
+DTEND;TZID=Europe/Berlin:20190615T000000
+DTSTAMP:20190607T110749Z
+DESCRIPTION:Unter Feinstaub werden luftgetragene\, einatembare Partikel verstanden\, die durch natürliche oder anthropogene Prozesse entstehen. Eingeatmeter Feinstaub kann die Gesundheit belasten. Die AG Mechanische Verfahrenstechnik entwickelt Methoden zur Charakterisierung von Fein- und Ultrafeinstäuben. Am Stand werden Experimente zur Veranschaulichung der typischen Feinstaubbelastung im Alltag vorgeführt.
+LOCATION:Helmholtzstraße 14 01069 Dresden
+SEQUENCE:7
+END:VEVENT
+BEGIN:VEVENT
+UID:3613@www.wissenschaftsnacht-dresden.de
+CLASS:PUBLIC
+ORGANIZER;CN="Hochschule für Technik und Wirtschaft Dresden":MAILTO:info@wissenschaftsnacht-dresden.de
+SUMMARY:Crashtest-Dummy im Einsatz 
+DTSTART;TZID=Europe/Berlin:20190614T180000
+DTEND;TZID=Europe/Berlin:20190615T000000
+DTSTAMP:20190607T110749Z
+DESCRIPTION:Frontalaufprall mit 20 km/h
+LOCATION:Uhlandstraße 25 01069 Dresden
+SEQUENCE:8
+END:VEVENT
+BEGIN:VEVENT
+UID:3615@www.wissenschaftsnacht-dresden.de
+CLASS:PUBLIC
+ORGANIZER;CN="Hochschule für Technik und Wirtschaft Dresden":MAILTO:info@wissenschaftsnacht-dresden.de
+SUMMARY:Fahrerassistenz der Zukunft 
+DTSTART;TZID=Europe/Berlin:20190614T180000
+DTEND;TZID=Europe/Berlin:20190615T000000
+DTSTAMP:20190607T110749Z
+DESCRIPTION:Was muss der Fahrer in Zukunft noch selber machen?
+LOCATION:Uhlandstraße 25 01069 Dresden
+SEQUENCE:9
+END:VEVENT
+BEGIN:VEVENT
+UID:3623@www.wissenschaftsnacht-dresden.de
+CLASS:PUBLIC
+ORGANIZER;CN="Hochschule für Technik und Wirtschaft Dresden":MAILTO:info@wissenschaftsnacht-dresden.de
+SUMMARY:Fahrzeug nach Seitencrash 
+DTSTART;TZID=Europe/Berlin:20190614T180000
+DTEND;TZID=Europe/Berlin:20190615T000000
+DTSTAMP:20190607T110749Z
+DESCRIPTION:Fahrzeugsicherheit sichtbar am Fahrzeug
+LOCATION:Uhlandstraße 25 01069 Dresden
+SEQUENCE:10
+END:VEVENT
+BEGIN:VEVENT
+UID:3671@www.wissenschaftsnacht-dresden.de
+CLASS:PUBLIC
+ORGANIZER;CN="Barkhausen Institut":MAILTO:info@wissenschaftsnacht-dresden.de
+SUMMARY:Live Hacking Demonstration
+DTSTART;TZID=Europe/Berlin:20190614T193000
+DTEND;TZID=Europe/Berlin:20190614T203000
+DTSTAMP:20190607T110749Z
+DESCRIPTION:Wie sicher ist das Internet der Dinge? Wir zeigen Ihnen\, wie leicht die Kontrolle über unzureichend gesicherte Rechner übernommen werden kann\, wie unverschlüsselte Übertragungen abzuhören sind und wie es sich in die Steuerung von Industrieanlagen eingreifen lässt. Aber die gute Nachricht ist: Gerade auch die Sicherheit des Internets der Dinge steht im Mittelpunkt der Forschung unseres Instituts.
+LOCATION:Würzburger Straße 46 01187 Dresden
+SEQUENCE:11
+END:VEVENT
+BEGIN:VEVENT
+UID:3707@www.wissenschaftsnacht-dresden.de
+CLASS:PUBLIC
+ORGANIZER;CN="Fraunhofer-Institut für Verkehrs- und Infrastruktursysteme IVI":MAILTO:info@wissenschaftsnacht-dresden.de
+SUMMARY:Car2X-Kommunikation
+DTSTART;TZID=Europe/Berlin:20190614T180000
+DTEND;TZID=Europe/Berlin:20190614T220000
+DTSTAMP:20190607T110749Z
+DESCRIPTION:Nicht nur Fahrzeuge können untereinander kommunizieren\, auch die Ampeln mischen mit.
+LOCATION:Zeunerstraße 38 01069 Dresden
+SEQUENCE:12
+END:VEVENT
+BEGIN:VEVENT
+UID:3788@www.wissenschaftsnacht-dresden.de
+CLASS:PUBLIC
+ORGANIZER;CN="Universitätsklinikum und Medizinische Fakultät Carl Gustav Carus":MAILTO:info@wissenschaftsnacht-dresden.de
+SUMMARY:Optische Methoden für eine neue Sicht in den menschlichen Körper
+DTSTART;TZID=Europe/Berlin:20190614T180000
+DTEND;TZID=Europe/Berlin:20190615T010000
+DTSTAMP:20190607T110749Z
+DESCRIPTION:Haben Sie schon einmal die Schweißdrüsen Ihrer Fingerkuppe gesehen? - Am Beispiel der optischen Kohärenztomografie\, der Wärmebildgebung und anderer Techniken können Sie in praktischen Experimenten erfahren\, wie optische Messmethoden interessante Einblicke in biologische Vorgänge erlauben.
+LOCATION:Fiedlerstraße 42 01307 Dresden
+SEQUENCE:13
+END:VEVENT
+BEGIN:VEVENT
+UID:3815@www.wissenschaftsnacht-dresden.de
+CLASS:PUBLIC
+ORGANIZER;CN="Technische Universität Dresden":MAILTO:info@wissenschaftsnacht-dresden.de
+SUMMARY:Wie kommt der Strom auf die Lok?
+DTSTART;TZID=Europe/Berlin:20190614T180000
+DTEND;TZID=Europe/Berlin:20190614T220000
+DTSTAMP:20190607T110749Z
+DESCRIPTION:Fahren auf realen Strecken am Original-Führerstand eines Nahverkehrsfahrzeuges (Tag- und Nachtfahrten)\, das Innenleben einer Lok aus der Nähe betrachten\, Elektrische Bahnen hautnah erleben
+LOCATION:Hettnerstraße 1 01069 Dresden
+SEQUENCE:14
+END:VEVENT
+BEGIN:VEVENT
+UID:3902@www.wissenschaftsnacht-dresden.de
+CLASS:PUBLIC
+ORGANIZER;CN="Grünes Forum Pillnitz":MAILTO:info@wissenschaftsnacht-dresden.de
+SUMMARY:Melken 4.0
+DTSTART;TZID=Europe/Berlin:20190614T180000
+DTEND;TZID=Europe/Berlin:20190614T230000
+DTSTAMP:20190607T110749Z
+DESCRIPTION:Mit der Digitalisierung zurück zur Kuh.
+LOCATION:Pillnitzer Platz 1 01326 Dresden
+SEQUENCE:15
+END:VEVENT
+BEGIN:VEVENT
+UID:3936@www.wissenschaftsnacht-dresden.de
+CLASS:PUBLIC
+ORGANIZER;CN="Universitätsklinikum und Medizinische Fakultät Carl Gustav Carus":MAILTO:info@wissenschaftsnacht-dresden.de
+SUMMARY:Wie gefährlich ist Narkose? Einblicke in den Alltag der Anästhesie
+DTSTART;TZID=Europe/Berlin:20190614T190000
+DTEND;TZID=Europe/Berlin:20190614T194500
+DTSTAMP:20190607T110749Z
+DESCRIPTION:Hier sollen die Mechanismen der Allgemeinanästhesie für den Laien erläutert werden.
+LOCATION:Fiedlerstraße 42 01307 Dresden
+SEQUENCE:16
+END:VEVENT
+BEGIN:VEVENT
+UID:3938@www.wissenschaftsnacht-dresden.de
+CLASS:PUBLIC
+ORGANIZER;CN="Universitätsklinikum und Medizinische Fakultät Carl Gustav Carus":MAILTO:info@wissenschaftsnacht-dresden.de
+SUMMARY:Wie trainieren Ärzte Notfallsituationen? Vorstellung der Technik im Simulationszentrum
+DTSTART;TZID=Europe/Berlin:20190614T180000
+DTEND;TZID=Europe/Berlin:20190614T230000
+DTSTAMP:20190607T110749Z
+DESCRIPTION:Im ISIMED werden jährlich 2.500 Mitarbeiter des Uniklinikums für medizinische Notfallsituationen trainiert. Gewinnen Sie selbst einen Eindruck von den vielfältigen Trainings- und Simulationsmöglichkeiten.
+LOCATION:Fetscherstraße 74 01307 Dresden
+SEQUENCE:17
+END:VEVENT
+BEGIN:VEVENT
+UID:4061@www.wissenschaftsnacht-dresden.de
+CLASS:PUBLIC
+ORGANIZER;CN="Fraunhofer-Institut für Fertigungstechnik und Angewandte Materialforschung\, IFAM":MAILTO:info@wissenschaftsnacht-dresden.de
+SUMMARY:Strom aus Abwasser
+DTSTART;TZID=Europe/Berlin:20190614T180000
+DTEND;TZID=Europe/Berlin:20190615T000000
+DTSTAMP:20190607T110749Z
+DESCRIPTION:Schauen Sie mit uns genau hin\, wie man mit mikrobiellen Brennstoffzellen nicht nur Abwasser reinigt\, sondern gleichzeitig auch noch Energie erzeugt.
+LOCATION:Winterbergstraße 28 01277 Dresden
+SEQUENCE:18
+END:VEVENT
+BEGIN:VEVENT
+UID:4068@www.wissenschaftsnacht-dresden.de
+CLASS:PUBLIC
+ORGANIZER;CN="Fraunhofer-Institut für Integrierte Schaltungen IIS":MAILTO:info@wissenschaftsnacht-dresden.de
+SUMMARY:Wenn das WLAN plötzlich weg ist
+DTSTART;TZID=Europe/Berlin:20190614T180000
+DTEND;TZID=Europe/Berlin:20190614T233000
+DTSTAMP:20190607T110749Z
+DESCRIPTION:Beim Telefonieren mit dem Handy ist es ärgerlich. Ist aber der Funkempfang des Werksroboters an einer Produktionsstraße gestört\, kann schnell großer Schaden entstehen. Wir zeigen Ihnen\, wie WLAN & Co. auch in schwierigen Umgebungen zuverlässig funktionieren und was maschinelles Lernen damit zu tun hat.
+LOCATION:Zeunerstraße 38 01069 Dresden
+SEQUENCE:19
+END:VEVENT
+BEGIN:VEVENT
+UID:4078@www.wissenschaftsnacht-dresden.de
+CLASS:PUBLIC
+ORGANIZER;CN="Technische Universität Dresden":MAILTO:info@wissenschaftsnacht-dresden.de
+SUMMARY:Team Elbflorace stellt sich vor
+DTSTART;TZID=Europe/Berlin:20190614T180000
+DTEND;TZID=Europe/Berlin:20190614T230000
+DTSTAMP:20190607T110749Z
+DESCRIPTION:Elbﬂorace ist das studentische Rennteam der TU Dresden innerhalb der Formula Student. Hier können Studenten einen Rennwagen entwickeln und fertigen. In internationalen Wettbewerben tritt dann das Team mit Ihrem Elektrorennwagen gegen andere Teams von Universitäten aus aller Welt an. Das Team präsentiert seine neuesten Rennboliden und bietet Einblicke in die Herausforderungen der Formula Student.
+LOCATION:George-Bähr-Straße 1C 01069 Dresden
+SEQUENCE:20
+END:VEVENT
+BEGIN:VEVENT
+UID:4366@www.wissenschaftsnacht-dresden.de
+CLASS:PUBLIC
+ORGANIZER;CN="Fraunhofer-Institut für Photonische Mikrosysteme IPMS":MAILTO:info@wissenschaftsnacht-dresden.de
+SUMMARY:»Energie und Daten übertragen ohne Kabel!«
+DTSTART;TZID=Europe/Berlin:20190614T180000
+DTEND;TZID=Europe/Berlin:20190615T000000
+DTSTAMP:20190607T110749Z
+DESCRIPTION:Erleben Sie die Welt der RFID-Transponder\, der optischen Kommunikationund der Funktechnik hautnah an unserem Stand.
+LOCATION:Bergstraße 64 01069 Dresden
+SEQUENCE:21
+END:VEVENT
+BEGIN:VEVENT
+UID:4784@www.wissenschaftsnacht-dresden.de
+CLASS:PUBLIC
+ORGANIZER;CN="Technische Universität Dresden":MAILTO:info@wissenschaftsnacht-dresden.de
+SUMMARY:Wie funktioniert die Eisenbahn? (Führungen durch das Eisenbahnbetriebslabor (EBL))
+DTSTART;TZID=Europe/Berlin:20190614T180000
+DTEND;TZID=Europe/Berlin:20190615T000000
+DTSTAMP:20190607T110749Z
+DESCRIPTION:Unter diesem Motto zeigen wir\, was alles notwendig ist\, damit Züge in einem Eisenbahnnetz verkehren können. Bei uns kann man z.B. erleben\, wie Weichen und Signale gestellt werden\, heute und auch schon vor 100 Jahren.
+LOCATION:Hettnerstraße 1 01069 Dresden
+SEQUENCE:22
+END:VEVENT
+BEGIN:VEVENT
+UID:4835@www.wissenschaftsnacht-dresden.de
+CLASS:PUBLIC
+ORGANIZER;CN="Fraunhofer-Institut für Organische Elektronik\, Elektronenstrahl- und Plasmatechn":MAILTO:info@wissenschaftsnacht-dresden.de
+SUMMARY:Nachhaltige Verpackung - was wir gegen die Müllflut tun
+DTSTART;TZID=Europe/Berlin:20190614T180000
+DTEND;TZID=Europe/Berlin:20190615T000000
+DTSTAMP:20190607T110749Z
+DESCRIPTION:Wir forschen auf dem Gebiet der biologisch abbaubaren Verpackungen und zeigen unsere industrielle Rolle-zu-Rolle-Anlage atmoFlex 1250 in Betrieb. 
+LOCATION:Winterbergstraße 28 01277 Dresden
+SEQUENCE:23
+END:VEVENT
+BEGIN:VEVENT
+UID:4876@www.wissenschaftsnacht-dresden.de
+CLASS:PUBLIC
+ORGANIZER;CN="Technische Universität Dresden":MAILTO:info@wissenschaftsnacht-dresden.de
+SUMMARY:Science Slam
+DTSTART;TZID=Europe/Berlin:20190614T223000
+DTEND;TZID=Europe/Berlin:20190614T233000
+DTSTAMP:20190607T110749Z
+DESCRIPTION:Nachwuchswissenschaftler erhalten die Möglichkeit\, ihre Forschungsprojekte in einem unterhaltsamen 10-Minuten-Vortrag den Besuchern näher zu bringen. 
+LOCATION:Fetscherstraße 105 01307 Dresden
+SEQUENCE:24
+END:VEVENT
+
+END:VCALENDAR
