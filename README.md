@@ -1,6 +1,6 @@
 # iCalMap .ics mapper
 
-iCalMap is an Android app that allows to display the events from an .ics file in Google Maps. It was originally developed to navigate between favorite events of [Lange Nacht der Wissenschaft Dresden](https://www.wissenschaftsnacht-dresden.de/), a science night with various events and tech demos hosted by TU Dresden and local research institutes.
+iCalMap is an Android app that allows to display the events from an .ics file in Google Maps. It was originally developed to navigate between favorite events of [Lange Nacht der Wissenschaften Dresden](https://www.wissenschaftsnacht-dresden.de/), a science night with various events and tech demos hosted by TU Dresden and local research institutes.
 
 ![iCalMap](docs/screenshot.png)
 
